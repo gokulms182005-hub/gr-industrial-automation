@@ -1,0 +1,24 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#11233d"/><stop offset="100%" stop-color="#060d18"/></linearGradient></defs>
+<rect width="800" height="600" fill="url(#g5)"/>
+<g opacity="0.12" stroke="#22d3ee"><line x1="0" y1="150" x2="800" y2="150"/><line x1="0" y1="300" x2="800" y2="300"/><line x1="0" y1="450" x2="800" y2="450"/></g>
+<!-- tanks -->
+<rect x="100" y="220" width="150" height="220" rx="10" fill="#132846" stroke="#2f8fff" stroke-width="2.5"/>
+<rect x="108" y="330" width="134" height="102" fill="#1c5fc4" opacity="0.35"/>
+<rect x="300" y="180" width="150" height="260" rx="10" fill="#132846" stroke="#22d3ee" stroke-width="2.5"/>
+<rect x="308" y="260" width="134" height="172" fill="#1c5fc4" opacity="0.35"/>
+<!-- droplet -->
+<path d="M600 200 C600 240 560 270 560 305 A40 40 0 0 0 640 305 C640 270 600 240 600 200 Z" fill="none" stroke="#22d3ee" stroke-width="3"/>
+<path d="M600 220 C600 250 575 270 575 300 A25 25 0 0 0 625 300 C625 270 600 250 600 220 Z" fill="#22d3ee" opacity="0.3"/>
+<!-- pipes connecting -->
+<g stroke="#5c6b82" stroke-width="8" fill="none" stroke-linecap="round">
+  <path d="M250 380 L300 380"/>
+  <path d="M450 340 L560 340 L560 305"/>
+</g>
+<g fill="#2f8fff"><circle cx="275" cy="380" r="6"/><circle cx="505" cy="340" r="6"/></g>
+<!-- filtration valves -->
+<g fill="#0a1626" stroke="#2f8fff" stroke-width="2"><circle cx="175" cy="480" r="16"/><circle cx="375" cy="480" r="16"/></g>
+<line x1="175" y1="440" x2="175" y2="464" stroke="#5c6b82" stroke-width="6"/>
+<line x1="375" y1="440" x2="375" y2="464" stroke="#5c6b82" stroke-width="6"/>
+<line x1="0" y1="500" x2="800" y2="500" stroke="#1e3a5f" stroke-width="2"/>
+</svg>

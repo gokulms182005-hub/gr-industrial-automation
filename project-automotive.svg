@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#11233d"/><stop offset="100%" stop-color="#060d18"/></linearGradient>
+<radialGradient id="spark" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ffb020" stop-opacity="0.9"/><stop offset="100%" stop-color="#ffb020" stop-opacity="0"/></radialGradient></defs>
+<rect width="800" height="600" fill="url(#g3)"/>
+<g opacity="0.12" stroke="#22d3ee"><line x1="0" y1="150" x2="800" y2="150"/><line x1="0" y1="300" x2="800" y2="300"/><line x1="0" y1="450" x2="800" y2="450"/></g>
+<!-- car body outline -->
+<g fill="none" stroke="#5c6b82" stroke-width="2.5">
+  <path d="M180 420 Q200 360 280 355 L420 350 Q470 350 500 400 L560 420 L560 460 L180 460 Z"/>
+</g>
+<g fill="#0a1626" stroke="#2f8fff" stroke-width="2"><circle cx="240" cy="460" r="28"/><circle cx="480" cy="460" r="28"/></g>
+<!-- robot arm base -->
+<rect x="600" y="440" width="90" height="40" rx="6" fill="#132846" stroke="#2f8fff" stroke-width="2"/>
+<g fill="none" stroke="#22d3ee" stroke-width="8" stroke-linecap="round">
+  <line x1="645" y1="440" x2="620" y2="340"/>
+  <line x1="620" y1="340" x2="520" y2="290"/>
+  <line x1="520" y1="290" x2="470" y2="360"/>
+</g>
+<circle cx="645" cy="440" r="10" fill="#2f8fff"/>
+<circle cx="620" cy="340" r="9" fill="#2f8fff"/>
+<circle cx="520" cy="290" r="9" fill="#2f8fff"/>
+<circle cx="470" cy="360" r="7" fill="#22d3ee"/>
+<!-- weld spark -->
+<circle cx="470" cy="360" r="40" fill="url(#spark)"/>
+<g stroke="#ffb020" stroke-width="2">
+  <line x1="470" y1="360" x2="450" y2="335"/><line x1="470" y1="360" x2="490" y2="330"/>
+  <line x1="470" y1="360" x2="440" y2="365"/><line x1="470" y1="360" x2="500" y2="370"/>
+</g>
+<!-- floor -->
+<line x1="0" y1="480" x2="800" y2="480" stroke="#1e3a5f" stroke-width="2"/>
+</svg>

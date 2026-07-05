@@ -1,0 +1,54 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#11233d"/>
+    <stop offset="100%" stop-color="#0a1626"/>
+  </linearGradient>
+  <linearGradient id="panel1" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#1e3a5f"/>
+    <stop offset="100%" stop-color="#132846"/>
+  </linearGradient>
+</defs>
+<rect width="900" height="700" fill="url(#bg1)"/>
+<g opacity="0.15" stroke="#22d3ee">
+  <line x1="0" y1="120" x2="900" y2="120"/><line x1="0" y1="240" x2="900" y2="240"/>
+  <line x1="0" y1="360" x2="900" y2="360"/><line x1="0" y1="480" x2="900" y2="480"/>
+  <line x1="0" y1="600" x2="900" y2="600"/>
+  <line x1="150" y1="0" x2="150" y2="700"/><line x1="300" y1="0" x2="300" y2="700"/>
+  <line x1="450" y1="0" x2="450" y2="700"/><line x1="600" y1="0" x2="600" y2="700"/><line x1="750" y1="0" x2="750" y2="700"/>
+</g>
+<!-- control panel / HMI screen -->
+<rect x="220" y="140" width="460" height="320" rx="14" fill="url(#panel1)" stroke="#2f8fff" stroke-width="2"/>
+<rect x="250" y="170" width="400" height="200" rx="6" fill="#060d18" stroke="#22d3ee" stroke-width="1.5"/>
+<polyline points="270,320 320,280 370,300 420,240 470,260 520,200 570,230 620,190" fill="none" stroke="#22d3ee" stroke-width="3"/>
+<g fill="#2f8fff">
+  <circle cx="270" cy="320" r="4"/><circle cx="320" cy="280" r="4"/><circle cx="370" cy="300" r="4"/>
+  <circle cx="420" cy="240" r="4"/><circle cx="470" cy="260" r="4"/><circle cx="520" cy="200" r="4"/>
+  <circle cx="570" cy="230" r="4"/><circle cx="620" cy="190" r="4"/>
+</g>
+<g fill="#5c6b82"><rect x="270" y="400" width="80" height="10" rx="4"/><rect x="270" y="420" width="140" height="10" rx="4"/></g>
+<g fill="#33d17a"><circle cx="640" cy="405" r="6"/></g>
+<g fill="#ffb020"><circle cx="600" cy="150" r="5"/></g>
+<!-- control buttons row -->
+<g>
+  <circle cx="255" cy="430" r="10" fill="#0a1626" stroke="#22d3ee" stroke-width="2"/>
+  <circle cx="285" cy="430" r="10" fill="#0a1626" stroke="#ffb020" stroke-width="2"/>
+  <circle cx="315" cy="430" r="10" fill="#0a1626" stroke="#ff5c5c" stroke-width="2"/>
+</g>
+<!-- engineer silhouette -->
+<g fill="#0d1f36" stroke="#2f8fff" stroke-width="2">
+  <circle cx="150" cy="470" r="34"/>
+  <path d="M90 640 C90 560 110 520 150 520 C190 520 210 560 210 640 Z"/>
+</g>
+<g fill="none" stroke="#22d3ee" stroke-width="2.5">
+  <path d="M182 500 L250 460"/>
+</g>
+<circle cx="255" cy="455" r="6" fill="#22d3ee"/>
+<!-- clipboard -->
+<rect x="95" y="560" width="46" height="60" rx="4" fill="#132846" stroke="#5c6b82" stroke-width="1.5"/>
+<line x1="103" y1="575" x2="133" y2="575" stroke="#90a0b7" stroke-width="2"/>
+<line x1="103" y1="588" x2="133" y2="588" stroke="#90a0b7" stroke-width="2"/>
+<line x1="103" y1="601" x2="120" y2="601" stroke="#90a0b7" stroke-width="2"/>
+<!-- ambient glow -->
+<circle cx="450" cy="300" r="260" fill="#22d3ee" opacity="0.05"/>
+</svg>

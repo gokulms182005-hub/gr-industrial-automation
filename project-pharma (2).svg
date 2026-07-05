@@ -1,0 +1,27 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g6" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f2138"/><stop offset="100%" stop-color="#060d18"/></linearGradient></defs>
+<rect width="800" height="600" fill="url(#g6)"/>
+<g opacity="0.12" stroke="#22d3ee"><line x1="0" y1="150" x2="800" y2="150"/><line x1="0" y1="300" x2="800" y2="300"/><line x1="0" y1="450" x2="800" y2="450"/></g>
+<!-- HMI touchscreen -->
+<rect x="120" y="140" width="280" height="200" rx="10" fill="#0a1626" stroke="#2f8fff" stroke-width="2.5"/>
+<rect x="140" y="160" width="240" height="110" rx="5" fill="#132846" stroke="#22d3ee" stroke-width="1"/>
+<rect x="150" y="235" width="60" height="26" rx="4" fill="#1c5fc4"/>
+<rect x="220" y="235" width="60" height="26" rx="4" fill="#1e3a5f"/>
+<rect x="290" y="235" width="60" height="26" rx="4" fill="#1e3a5f"/>
+<circle cx="200" cy="195" r="24" fill="none" stroke="#22d3ee" stroke-width="5"/>
+<circle cx="200" cy="195" r="24" fill="none" stroke="#33d17a" stroke-width="5" stroke-dasharray="90 150" stroke-dashoffset="30"/>
+<g fill="#5c6b82"><rect x="250" y="180" width="90" height="8" rx="2"/><rect x="250" y="195" width="90" height="8" rx="2"/><rect x="250" y="210" width="60" height="8" rx="2"/></g>
+<rect x="150" y="285" width="240" height="16" rx="4" fill="#0a1626" stroke="#22d3ee" stroke-width="1.2"/>
+<!-- vials / reactor vessels -->
+<g fill="#132846" stroke="#2f8fff" stroke-width="2.5">
+  <rect x="480" y="200" width="70" height="180" rx="20"/>
+  <rect x="580" y="230" width="70" height="150" rx="20"/>
+</g>
+<rect x="490" y="260" width="50" height="110" fill="#1c5fc4" opacity="0.4"/>
+<rect x="590" y="280" width="50" height="90" fill="#22d3ee" opacity="0.35"/>
+<circle cx="515" cy="190" r="10" fill="none" stroke="#2f8fff" stroke-width="3"/>
+<circle cx="615" cy="220" r="10" fill="none" stroke="#22d3ee" stroke-width="3"/>
+<!-- connecting pipe -->
+<path d="M550 320 L580 320" stroke="#5c6b82" stroke-width="6" fill="none"/>
+<line x1="0" y1="440" x2="800" y2="440" stroke="#1e3a5f" stroke-width="2"/>
+</svg>

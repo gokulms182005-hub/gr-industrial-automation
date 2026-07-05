@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GR Industrial Automation | Smart Industrial Automation Solutions</title>
+<meta name="description" content="GR Industrial Automation — PLC Programming, SCADA Development, Industrial Automation, Electrical Control Panels and Preventive Maintenance for modern industries.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="blueprint-bg"></div>
+<div class="overlay" id="overlay"></div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="status-strip">
+    <div class="wrap">
+      <div class="segs">
+        <span><i class="dot"></i>SYSTEM ONLINE</span>
+        <span>UPTIME 99.98%</span>
+        <span>HQ // COIMBATORE, IN</span>
+        <span>ISO 9001:2015 CERTIFIED (DEMO)</span>
+      </div>
+      <div>MON–SAT · 09:00–18:00 IST</div>
+    </div>
+  </div>
+  <div class="wrap nav-inner">
+    <a href="#home" class="logo" data-link="home">
+      <svg class="logo-mark" viewBox="0 0 42 42" fill="none">
+        <rect x="1" y="1" width="40" height="40" rx="9" fill="#11233d" stroke="#22d3ee" stroke-width="1.2"/>
+        <path d="M21 8 L21 15 M21 27 L21 34 M8 21 L15 21 M27 21 L34 21" stroke="#2f8fff" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="21" cy="21" r="7" stroke="#22d3ee" stroke-width="2"/>
+        <circle cx="21" cy="21" r="2" fill="#22d3ee"/>
+      </svg>
+      <div class="logo-text">GR INDUSTRIAL<span>AUTOMATION SYSTEMS</span></div>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" data-link="home">Home</a>
+      <a href="#about" data-link="about">About</a>
+      <a href="#services" data-link="services">Services</a>
+      <a href="#industries" data-link="industries">Industries</a>
+      <a href="#projects" data-link="projects">Projects</a>
+      <a href="#dashboard" data-link="dashboard">Dashboard</a>
+      <a href="#contact" data-link="contact">Contact</a>
+      <a href="#contact" class="btn btn-primary mobile-only-cta" style="margin-top:20px;justify-content:center;">Get Started</a>
+    </nav>
+    <div class="nav-right">
+      <a href="#contact" class="btn nav-cta">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HOME ============ -->
+<main id="home" class="page">
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="images/hero-factory.svg" alt="Smart automated factory floor" onerror="this.style.display='none'">
+    </div>
+    <div class="hero-glow"></div>
+    <div class="wrap hero-content">
+      <div class="eyebrow">GR-IA · Industrial Systems Integrator</div>
+      <h1>Smart Industrial Automation Solutions<span class="accent">.</span></h1>
+      <p class="lead">We provide PLC Programming, SCADA Development, Industrial Automation, Electrical Control Panels, and Preventive Maintenance solutions for modern industries.</p>
+      <div class="btn-row">
+        <a href="#contact" class="btn btn-primary" data-link="contact">Get Started →</a>
+        <a href="#services" class="btn btn-outline" data-link="services">Explore Services</a>
+      </div>
+      <div class="hero-stats">
+        <div><b>5+</b><span>Demo Projects</span></div>
+        <div><b>Demo</b><span>Company</span></div>
+        <div><b>Portfolio</b><span>Project</span></div>
+        <div><b>AI-Assisted</b><span>Learning Project</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="wrap">
+      <div class="eyebrow">Trusted Capability</div>
+      <div class="grid grid-4">
+        <div class="bp-card reveal">
+          <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4 21V9l8-6 8 6v12M9 21v-6h6v6"/></svg></div>
+          <h3>Turnkey Integration</h3>
+          <p>End-to-end delivery from panel fabrication to commissioning.</p>
+        </div>
+        <div class="bp-card reveal">
+          <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <h3>Rapid Response</h3>
+          <p>Site engineers dispatched within hours for critical downtime.</p>
+        </div>
+        <div class="bp-card reveal">
+          <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></svg></div>
+          <h3>Data-Driven Uptime</h3>
+          <p>Live dashboards translate sensor data into action.</p>
+        </div>
+        <div class="bp-card reveal">
+          <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 2l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg></div>
+          <h3>Certified Engineering</h3>
+          <p>Panels and programs built to IEC / NEC compliance standards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap two-col">
+      <div>
+        <div class="eyebrow">Why Manufacturers Choose GR-IA</div>
+        <h2 style="font-size:clamp(26px,3vw,36px);margin-bottom:20px;">We engineer the systems that keep production running.</h2>
+        <p style="color:var(--gray-400);margin-bottom:28px;">From a single retrofit PLC upgrade to a full SCADA-integrated smart factory, our engineers design, build, and support automation systems that reduce downtime and lift output — without disrupting your production schedule.</p>
+        <ul class="why-list">
+          <li><span class="why-num">01</span><span>Single point of accountability from design to commissioning</span></li>
+          <li><span class="why-num">02</span><span>In-house panel fabrication with full documentation</span></li>
+          <li><span class="why-num">03</span><span>Preventive maintenance contracts to avoid unplanned stops</span></li>
+        </ul>
+      </div>
+      <img src="images/about-engineer.svg" alt="Control engineer reviewing automation panel" style="border-radius:var(--radius);border:1px solid var(--line-strong);" onerror="this.parentElement.style.background='linear-gradient(145deg,var(--panel),var(--navy-900))';this.remove();">
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="wrap center">
+      <div class="eyebrow" style="justify-content:center;">Get Started</div>
+      <h2 style="margin-bottom:18px;">Ready to modernize your production line?</h2>
+      <p style="color:var(--gray-400);max-width:520px;margin:0 auto 32px;">Talk to our automation engineers about your plant, your bottlenecks, and where SCADA visibility could save you the most.</p>
+      <div class="btn-row" style="justify-content:center;">
+        <a href="#contact" class="btn btn-primary" data-link="contact">Request a Consultation</a>
+        <a href="#projects" class="btn btn-outline" data-link="projects">View Our Work</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ ABOUT ============ -->
+<div id="about" class="page">
+  <section>
+    <div class="wrap">
+      <div class="eyebrow">About GR Industrial Automation</div>
+      <h2 style="font-size:clamp(28px,3.6vw,42px);max-width:760px;margin-bottom:56px;">Engineering reliability into every control system we build.</h2>
+      <div class="about-hero">
+        <div>
+          <p style="color:var(--gray-300);margin-bottom:20px;">GR Industrial Automation was founded by a team of control systems engineers who believed manufacturers deserved automation partners who stay accountable long after commissioning. Today we design, build, and support automation systems across ten industries, from single-machine retrofits to full-plant SCADA rollouts.</p>
+          <p style="color:var(--gray-400);">We combine deep field experience with modern software practice — every panel we ship and every HMI screen we design is documented, tested, and supported by engineers who understand the plant floor.</p>
+        </div>
+        <img src="images/about-panel.svg" alt="Industrial control panel engineering" onerror="this.parentElement.style.background='linear-gradient(145deg,var(--panel),var(--navy-900))';this.style.aspectRatio='4/3';this.removeAttribute('src');">
+      </div>
+      <div class="stat-strip mt-40">
+        <div><b>120+</b><span>Projects Delivered</span></div>
+        <div><b>10</b><span>Industries Served</span></div>
+        <div><b>40+</b><span>Automation Engineers</span></div>
+        <div><b>18</b><span>Years Combined Experience</span></div>
+        <div><b>99.9%</b><span>Client Retention (Demo)</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="wrap">
+      <div class="mvw-grid">
+        <div class="bp-card reveal">
+          <div class="bp-tag">Mission</div>
+          <h3>Why we exist</h3>
+          <p>To deliver dependable, future-ready automation systems that reduce downtime, improve safety, and give manufacturers real visibility into their operations.</p>
+        </div>
+        <div class="bp-card reveal">
+          <div class="bp-tag">Vision</div>
+          <h3>Where we're headed</h3>
+          <p>To be the automation partner of choice for manufacturers modernizing their plants across South Asia, known for engineering discipline and honest support.</p>
+        </div>
+        <div class="bp-card reveal">
+          <div class="bp-tag">Our Expertise</div>
+          <h3>What we're built on</h3>
+          <p>PLC &amp; SCADA architecture, HMI design, control panel fabrication, VFD tuning, and plant-wide energy monitoring — under one engineering team.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Why Choose Us</div>
+        <h2>Four reasons plants keep us on retainer.</h2>
+      </div>
+      <div class="grid grid-4">
+        <div class="bp-card reveal">
+          <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/></svg></div>
+          <h3>Safety First</h3>
+          <p>Every panel and program is designed to relevant IEC/NEC safety standards.</p>
+        </div>
+        <div class="bp-card reveal">
+          <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4 4h16v16H4z"/><path d="M4 9h16M9 4v16"/></svg></div>
+          <h3>In-House Fabrication</h3>
+          <p>Control panels built and tested in our own workshop before dispatch.</p>
+        </div>
+        <div class="bp-card reveal">
+          <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M2 12h4l2-8 4 16 3-11 2 3h5"/></svg></div>
+          <h3>Real-Time Visibility</h3>
+          <p>SCADA and dashboard tooling so you see plant health, not guesswork.</p>
+        </div>
+        <div class="bp-card reveal">
+          <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="9"/></svg></div>
+          <h3>Long-Term Support</h3>
+          <p>Preventive maintenance contracts and rapid on-site response.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ SERVICES ============ -->
+<div id="services" class="page">
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">What We Do</div>
+        <h2>Full-stack industrial automation services.</h2>
+        <p>From PLC logic to plant-wide energy monitoring, our engineers cover every layer of the automation pyramid.</p>
+      </div>
+      <div class="grid grid-3" id="servicesGrid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ INDUSTRIES ============ -->
+<div id="industries" class="page">
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Sectors We Serve</div>
+        <h2>Automation tuned to your industry's process.</h2>
+        <p>Every sector has different uptime demands, hygiene rules, and hazard classifications — our systems are engineered around them.</p>
+      </div>
+      <div class="grid grid-4" id="industriesGrid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ PROJECTS ============ -->
+<div id="projects" class="page">
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Selected Work</div>
+        <h2>Sample project case studies.</h2>
+        <p>Representative demo projects illustrating the scope of work our teams typically deliver. Client names are illustrative.</p>
+      </div>
+      <div class="grid grid-3" id="projectsGrid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ DASHBOARD ============ -->
+<div id="dashboard" class="page">
+  <section>
+    <div class="wrap">
+      <div class="section-head" style="margin-bottom:20px;">
+        <div class="eyebrow">Plant Operations</div>
+        <h2>Live-style facility dashboard.</h2>
+      </div>
+      <div class="demo-badge">⚠ Demo dashboard — all figures are sample data for illustration only.</div>
+      <div class="kpi-grid" id="kpiGrid"></div>
+      <div class="chart-grid">
+        <div class="bp-card chart-card">
+          <h4>Production Efficiency — 7 Day Trend</h4>
+          <div class="chart-wrap"><canvas id="chartLine"></canvas></div>
+        </div>
+        <div class="bp-card chart-card">
+          <h4>Equipment Health Breakdown</h4>
+          <div class="chart-wrap"><canvas id="chartDoughnut"></canvas></div>
+        </div>
+      </div>
+      <div class="chart-grid">
+        <div class="bp-card chart-card">
+          <h4>Power Consumption by Unit (kWh)</h4>
+          <div class="chart-wrap"><canvas id="chartBar"></canvas></div>
+        </div>
+        <div class="bp-card chart-card">
+          <h4>System Alerts</h4>
+          <div id="alertsList"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ CONTACT (main) placeholder appended below with testimonials on relevant pages ============ -->
+<div id="contact" class="page">
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Get In Touch</div>
+        <h2>Let's talk about your plant.</h2>
+        <p>Fill in the form and one of our automation engineers will get back to you within one business day.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="bp-card">
+          <form id="contactForm">
+            <div class="grid grid-2">
+              <div class="form-field"><label>Full Name</label><input type="text" required placeholder="Your name"></div>
+              <div class="form-field"><label>Company</label><input type="text" placeholder="Company name"></div>
+            </div>
+            <div class="grid grid-2">
+              <div class="form-field"><label>Email</label><input type="email" required placeholder="you@company.com"></div>
+              <div class="form-field"><label>Phone</label><input type="tel" placeholder="+91 00000 00000"></div>
+            </div>
+            <div class="form-field">
+              <label>Service Interested In</label>
+              <select>
+                <option>PLC Programming</option>
+                <option>SCADA Development</option>
+                <option>HMI Design</option>
+                <option>Industrial Automation</option>
+                <option>Electrical Control Panels</option>
+                <option>Preventive Maintenance</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-field"><label>Project Details</label><textarea placeholder="Tell us about your facility and requirements..."></textarea></div>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message</button>
+            <div class="form-msg" id="formMsg">✓ Thank you — your message has been received (demo form, not connected to a live inbox).</div>
+          </form>
+        </div>
+        <div>
+          <div class="map-placeholder">
+            <span class="pin"></span>
+            <span>MAP PLACEHOLDER — GR-IA HEAD OFFICE</span>
+          </div>
+          <div class="bp-card" style="margin-bottom:24px;">
+            <div class="bp-tag">Business Hours</div>
+            <div class="hours-row"><span>Monday – Friday</span><span>09:00 – 18:00</span></div>
+            <div class="hours-row"><span>Saturday</span><span>09:30 – 14:00</span></div>
+            <div class="hours-row"><span>Sunday</span><span>Closed</span></div>
+            <div class="hours-row"><span>Emergency Support</span><span>24/7</span></div>
+          </div>
+          <div class="bp-card">
+            <div class="bp-tag">Contact Details</div>
+            <p style="margin-bottom:8px;color:var(--gray-300);">📍 Plot 14, Industrial Estate Road, Coimbatore, TN 641021, India</p>
+            <p style="margin-bottom:8px;color:var(--gray-300);">✉️ contact@gr-industrialautomation.example</p>
+            <p style="color:var(--gray-300);">📞 +91 98765 43210</p>
+            <div class="social-row">
+              <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 10v7M7 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 13v4"/></svg></a>
+              <a href="#" aria-label="Twitter/X"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+              <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="2" y="6" width="20" height="12" rx="3"/><path d="M10 9l5 3-5 3z"/></svg></a>
+              <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M15 4h-2a4 4 0 0 0-4 4v3H7v4h2v7h4v-7h3l1-4h-4V8a1 1 0 0 1 1-1h3z"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight" style="border-top:1px solid var(--line);">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Client Feedback</div>
+        <h2>What our clients say.</h2>
+      </div>
+      <div class="grid grid-3" id="testimonialsGrid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ DISCLOSURE STRIP ============ -->
+<div class="disclosure-strip">
+  <div class="wrap disclosure-inner">
+    <span class="disclosure-label">Project Disclosure</span>
+    <span class="disclosure-pill"><span class="tick">✓</span> Portfolio Project</span>
+    <span class="disclosure-pill"><span class="tick">✓</span> Demo Automation Company</span>
+    <span class="disclosure-pill"><span class="tick">✓</span> AI-Assisted Project</span>
+    <span class="disclosure-pill"><span class="tick">✓</span> Sample Data</span>
+    <span class="disclosure-pill"><span class="tick">✓</span> Learning Project</span>
+  </div>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" style="margin-bottom:16px;">
+          <svg class="logo-mark" viewBox="0 0 42 42" fill="none" width="38" height="38">
+            <rect x="1" y="1" width="40" height="40" rx="9" fill="#11233d" stroke="#22d3ee" stroke-width="1.2"/>
+            <path d="M21 8 L21 15 M21 27 L21 34 M8 21 L15 21 M27 21 L34 21" stroke="#2f8fff" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="21" cy="21" r="7" stroke="#22d3ee" stroke-width="2"/><circle cx="21" cy="21" r="2" fill="#22d3ee"/>
+          </svg>
+          <div class="logo-text">GR INDUSTRIAL<span>AUTOMATION SYSTEMS</span></div>
+        </div>
+        <p style="color:var(--gray-400);font-size:13.5px;max-width:280px;">Engineering reliable automation systems for modern manufacturing — from PLC logic to plant-wide SCADA visibility.</p>
+      </div>
+      <div>
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#home" data-link="home">Home</a></li>
+          <li><a href="#about" data-link="about">About Us</a></li>
+          <li><a href="#projects" data-link="projects">Projects</a></li>
+          <li><a href="#dashboard" data-link="dashboard">Dashboard</a></li>
+          <li><a href="#contact" data-link="contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services" data-link="services">PLC Programming</a></li>
+          <li><a href="#services" data-link="services">SCADA Development</a></li>
+          <li><a href="#services" data-link="services">HMI Design</a></li>
+          <li><a href="#services" data-link="services">Control Panels</a></li>
+          <li><a href="#services" data-link="services">Preventive Maintenance</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li style="color:var(--gray-400);font-size:13.5px;">Plot 14, Industrial Estate Road,<br>Coimbatore, TN 641021, India</li>
+          <li><a href="#">contact@gr-industrialautomation.example</a></li>
+          <li><a href="#">+91 98765 43210</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> GR Industrial Automation. All rights reserved.</span>
+      <span>Demo website — all data, projects &amp; testimonials are illustrative samples.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
